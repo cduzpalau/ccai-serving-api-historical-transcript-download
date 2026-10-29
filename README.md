@@ -1,7 +1,7 @@
-# WxCC historical transcript fetch
+# CCAI historical transcript fetch
 
 A small Python script that fetches the historical transcript of a Webex Contact
-Center conversation from the WxCC AI **Serving API** (gRPC service `AiInsight`).
+Center or a CCE CCX using Hybrid org  from the CC AI **Serving API** (gRPC service `AiInsight`).
 
 It opens the `StreamingInsightServing` stream with `historicalTranscripts=true`,
 collects the replayed history, closes the stream once it goes quiet (5 s by
